@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jeepc.sharegif.MainActivity">
+
+    <View
+        android:id="@+id/v_select"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/pic"/>
+    <LinearLayout
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/want"
+        />
+    <ImageView
+        android:id="@+id/iv_recent_pic"
+        android:layout_marginTop="20dp"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+</FrameLayout>
